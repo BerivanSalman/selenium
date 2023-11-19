@@ -1,0 +1,6 @@
+
+
+Web element bir web sayfasında kullanılan herseye denir., Her web element farklı ozellilere sahiptir.
+-Link, acılır menu, button gibi etkileşimli web elementler oldugu gibi,
+-Resim, background gibi etkileşimsiz web elementler de vardır
+-Gorunen her web element aslında developerlar tarafından azılan bir HTML kodun gorsellestirilmis halidir

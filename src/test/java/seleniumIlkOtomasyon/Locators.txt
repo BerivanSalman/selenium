@@ -1,0 +1,4 @@
+
+
+
+1) By.id(): web elementi id ile bulur. Id unique olmazsa birden fazla olursa ilk bulduguna gider

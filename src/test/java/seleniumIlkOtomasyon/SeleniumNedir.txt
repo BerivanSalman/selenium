@@ -1,0 +1,8 @@
+
+
+
+Selenium:  Browserlarımızıı otomasyonla calıstırmamız icin ihtiyac duydugumuz kütüphanelere sahip bir suite dir.
+Java elektrik Selenium da elektrikle calıstırdıgımız buzdolabımız
+Selenium WebDriver bizim bilgisayarımızda var olan Chrome, Safari  vs nin bir kopyasını olusturur ve o kopya uzerinde %100 kontrolle
+istedigimiz herseyi yapmamıza imkan saglar.
+Frameworkler de ortak dizaynları saglar
