@@ -1,5 +1,6 @@
 package Practice.Day02;
 
+import Utilities.ReusableMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import java.time.Duration;
 
 public class C01 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         //http://babayigit.net/testdocs/ adresine git
         //INFO FORM butonuna tikla
@@ -31,6 +32,7 @@ public class C01 {
                 .sendKeys("4433666").sendKeys(Keys.TAB)
                 .sendKeys("14").sendKeys(Keys.TAB)
                 .sendKeys("ogretmen").perform();
+        Thread.sleep(2000);
         driver.findElement(By.id("female")).click();
         WebElement city = driver.findElement(By.id("city"));
         actions.click(city).sendKeys("ankara").sendKeys(Keys.TAB)
